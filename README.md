@@ -10,7 +10,7 @@ download v1.0-trainval only!!!
 
 ### train 
 ```
- python3 train_bcnn.py --data_path /home/bruce/Downloads/dataset/nuscenes/dataset_apollo_seg --batch_size 24 --max_epoch 150 --pretrained_model checkpoints/train_1_1025_ep.pt
+python3 train_bcnn.py --data_path /home/bruce/Downloads/dataset/apollo_seg_data --batch_size 25 --max_epoch 150 --pretrained_model checkpoints/bcnn_latestmodel_20220421_1510.pt
 
 ```
 
