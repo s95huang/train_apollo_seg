@@ -1,4 +1,5 @@
 # train_apollo_seg
+NOTE: TensorRT no longer supports Relu API used in this model.
 
 ### dataset
 download v1.0-trainval only!!!
